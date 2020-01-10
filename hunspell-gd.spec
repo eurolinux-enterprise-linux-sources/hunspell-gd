@@ -1,7 +1,7 @@
 Name: hunspell-gd
 Summary: Scots Gaelic hunspell dictionaries
 Version: 2.6
-Release: 2%{?dist}
+Release: 3%{?dist}
 Source: http://downloads.sourceforge.net/project/aoo-extensions/4587/8/hunspell-gd-2.6.oxt
 Group: Applications/Text
 URL: http://extensions.services.openoffice.org/en/project/faclair-afb
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.6-3
+- Mass rebuild 2013-12-27
+
 * Tue Jun 04 2013 Caolán McNamara <caolanm@redhat.com> - 2.6-2
 - clarify license. The .aff still says GPLv2+ while the LICENSES-en.txt etc say
   GPLv3+
